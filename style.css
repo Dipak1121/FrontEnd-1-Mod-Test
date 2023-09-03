@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ABeeZee';
+}
+.logo{
+    display: flex;
+    
+}
+.accio-logo{
+    
+}
+.nsdc-logo{
+    
+    border-left: 2px solid #DADADA;
+}
+.nav-links{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links>p:hover{
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.batch-line{
+    color: #FFFFFF;
+}
+.nav-wrapper{
+    position: sticky;
+    top: 0;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+}
+.div1-p1{
+    font-weight: 400;
+    font-size: 50px;
+}
+.div1-p2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #595959;
+}
+.para-1{
+    font-weight: 400;
+    font-size: 20px;
+    color: #2B2F34;
+}
+.para-2{
+    font-weight: 400;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+.placement{
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 2px 40px 0px #DDEAF3;
+}
+.placement-1{
+    gap: 10px !important;
+    flex-wrap: wrap;
+}
+.live-class-card{
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    box-shadow: 0px 2px 40px 0px #DDEAF3;
+    width: 30vw;
+    padding: 20px;
+}
+.grad-btn{
+    background: linear-gradient(to right, #992FED, #2F80ED);
+}
+.input-name>input{
+    padding: 10px 0px;
+    width: 90%;
+    border: none;
+    background: none;
+}
+
+.input-name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./back-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.course-info{
+    background-color: #ECF8FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para1{
+    background: linear-gradient(to right, #992FED, #2F80ED);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 400;
+    font-size: 20px;
+}
+.para2{
+    font-weight: 400;
+    font-size: 36px;
+    color: #2F80ED !important;
+}
+.card-div{
+    /* justify-content: space-between; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.course-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: 2px solid #2F80ED;
+}
+.course-card2{
+    border: 2px solid #E2E2E2;
+}
+.heading>img{
+    width: 30px;
+    height: 35px;
+}
+.heading>p{
+    font-weight: 400;
+    font-size: 26px;
+    color: #2B2F34;
+}
+.pockets, .pockets1{
+    gap: 10px;
+}
+.pockets>p{
+    background-color: #E0F3FF;
+    padding: 6px 15px;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1D78B0;
+
+}
+.pockets1>p{
+    background-color: #FFEED8;
+    padding: 6px 15px;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #965400;
+}
+.col1{
+    align-items: center;
+    width: 40%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.col2{
+    width: 40%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2B2F34;
+}
+.row1{
+    border-bottom: 2px solid #CCCCCC;
+}
+.hiring-partners{
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.p1{
+    font-weight: 400;
+    font-size: 16px;
+}
+.p2{
+    font-weight: 400;
+    font-size: 42px;
+    color: #2B2F34;
+}
+.p3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #595959;
+}
+.student-card{
+    width: 25vw;
+    padding: 20px;
+    border: 2px solid #D7D7D7;
+    border-radius: 10px;
+    box-shadow: 5px 9px 40px 0px #F2F2F2;
+}
+.l-1{
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+}
+.l-2{
+    font-weight: 600;
+    font-size: 16px;
+    color: #676767;
+}
+.profile{
+    text-align: left;
+}
+.exp{
+    font-weight: 400;
+    font-size: 16px;
+    color: #676767;
+}
+.date{
+    font-weight: 400;
+    font-size: 12px;
+    color: #676767;
+}
+.success-stories-col{
+    gap: 20px;
+}
+.success-story{
+    margin-top: 50px;
+    gap: 20px;
+}
+.couse-tag{
+    font-weight: 400;
+    font-size: 14px;
+    color: #565656;
+}
+@media screen and (max-width:768px){
+    .nav{
+        flex-direction: column;
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+    .main-content{
+        flex-direction: column;
+    }
+    .live-class-card{
+        margin-top: 40px;
+        width: 80vw;
+    }
+    .card-div{
+        flex-direction: column;
+    }
+    .course-card1{
+        width: 80vw;
+    }
+    .success-story{
+        flex-direction: column;
+    }
+    .student-card{
+        width: 60vw;
+    }
+    
+}
+
